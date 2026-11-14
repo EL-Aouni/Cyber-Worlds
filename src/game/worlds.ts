@@ -1,5 +1,6 @@
 import * as THREE from 'three'
 import type { Physics } from '../engine/physics'
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
 
 type VectorLike = { x: number; y: number; z: number }
 export type WorldId = 'hub' | 'redteam' | 'blueteam' | 'grc' | 'research'
