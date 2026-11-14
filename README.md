@@ -4,41 +4,41 @@ A high-performance, immersive 3D cybersecurity portfolio game built with **Three
 
 ---
 
-## 🎮 Features & Biomes
+##  Features & Biomes
 
-### 🌍 Starting Hub — Earth Courtyard
+###  Starting Hub — Earth Courtyard
 - **Atmosphere:** Serene sunny university courtyard with lush grass, cobblestone pathways, and campus foliage.
 - **Centerpiece:** Interactive two-tier stone fountain with shimmering turquoise water and a crystalline spire, flanked by a rotating 3D holographic wireframe Earth globe with an orbiting satellite.
 - **Ambient Effects:** Floating low-poly clouds and drifting pollen/leaf particles.
 - **Stations:** Interactive portfolio kiosks displaying Profile, SOC/SIEM, Red Team, Research, and Contact information.
 
-### 🌋 Red Team — Volcanic Lava Caldera
+###  Red Team — Volcanic Lava Caldera
 - **Biome:** Brooding ash-dark skies, fiery red fog, hexagonal basalt columns, and glowing magma fissure strips.
 - **Mechanics:** **Thermal Bounce Vents** (lava geysers) that launch the player high into the air.
 - **FX:** Fiery rising ember particles and heat-distortion vibes.
 
-### ❄️ Blue Team / SOC — Frozen Cryo-Glacier
+###  Blue Team / SOC — Frozen Cryo-Glacier
 - **Biome:** Shimmering dual Aurora Borealis arches across a twilight sky, towering crystalline ice spires, floating cryo-data crystals, and hexagonal forcefield barriers.
 - **Mechanics:** **Icy Surface Physics** with reduced ground friction (`0.22x`), enabling high-speed slides and drift maneuvering.
 - **FX:** Drifting snow and frost crystal particles.
 
-### 🏛️ GRC — Floating Golden Sky Citadel
+###  GRC — Floating Golden Sky Citadel
 - **Biome:** Brilliant golden sunrise, floating ivory and gold-trimmed islands, polished marble flooring, and levitating golden obelisks.
 - **Mechanics:** **Chevron Speed Boost Pads** that propel the player forward at supersonic velocities.
 - **FX:** Swirling golden aura motes.
 
-### 🌌 Security Research — Deep Space & Zero-G
+###  Security Research — Deep Space & Zero-G
 - **Biome:** Deep void skybox, a 500-star celestial starfield, a massive ringed planet on the horizon, and floating asteroid belt chunks.
 - **Mechanics:** **Zero-G Low Gravity Physics** (`0.32x` gravity) allowing extended hang time, floaty leaps, and deep-space platforming.
 - **FX:** Luminescent purple and cyan stardust particles.
 
-### ⚡ Unified Movement & Collectibles
+###  Unified Movement & Collectibles
 - **Air Movement:** Fluid **Double Jump** (air jump) available across all worlds.
 - **Collectible Energy Cores:** Glowing octahedral data shards with halo light coronas and spinning orbital rings hidden across all realms, featuring sound effects and particle bursts upon collection.
 
 ---
 
-## 🚀 How to Put on GitHub & Host for Free
+##  How to Put on GitHub & Host for Free
 
 ### Option 1: Automated Deployment with GitHub Pages (Recommended)
 
@@ -92,7 +92,7 @@ This repository includes a ready-to-use GitHub Actions workflow (`.github/workfl
 
 ---
 
-## 🕹️ Controls
+##  Controls
 
 - **Keyboard & Mouse:**
   - `WASD` / Arrow Keys: Move
@@ -109,7 +109,7 @@ This repository includes a ready-to-use GitHub Actions workflow (`.github/workfl
 
 ---
 
-## 🛠️ Development & Local Testing
+##  Development & Local Testing
 
 ```bash
 pnpm install
