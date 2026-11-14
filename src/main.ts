@@ -1,4 +1,5 @@
 import './styles/main.css'
+import type * as THREE from 'three'
 import { Audio } from './engine/audio'
 import { I18n, resolveLocale } from './engine/i18n'
 import { Input } from './engine/input'
