@@ -29,9 +29,7 @@ export type UiActions = {
 
 const CAREER_IDS: readonly CareerWorldId[] = ['redteam', 'blueteam', 'grc', 'research']
 const TABS: readonly PortfolioTab[] = ['profile', 'soc', 'redteam', 'research', 'contact']
-const LOADING_ICON_URL = import.meta.env.DEV
-  ? '/assets/share/cyberworlds-favicon.png'
-  : '/manus-storage/game/sha256/96ad7d75e9276ad41fd6cc2481de727d8694b18f610a6a8bb7efa5c02ace0e92.png'
+const LOADING_ICON_URL = './assets/share/cyberworlds-favicon.png'
 
 /** DOM overlays for the explorable present-day hub and four fictional future-career simulations. */
 export class Ui {

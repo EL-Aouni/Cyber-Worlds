@@ -2,14 +2,4 @@ node_modules/
 dist/
 shots/
 /.manus-webdev/preview-identity.json
-# Assets restored from assets.lock.json
-/assets/models/cyber-ops-skyscraper.glb
-/assets/models/cyber-ops-sports-car.glb
-# Assets restored from assets.lock.json
-/assets/share/favicon.png
-/assets/share/og.png
-# Assets restored from assets.lock.json
-/assets/models/quaternius/Individual\ Characters__glTF__Casual_Hoodie.gltf
-# Assets restored from assets.lock.json
-/assets/share/cyberworlds-favicon.png
-/assets/share/cyberworlds-og.png
+

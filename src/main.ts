@@ -8,9 +8,7 @@ import type { Game } from './game/game'
 import { TouchControls } from './ui/touch'
 import { Ui } from './ui/ui'
 
-const AVATAR_URL = import.meta.env.DEV
-  ? '/assets/models/quaternius/Individual%20Characters__glTF__Casual_Hoodie.gltf'
-  : '/manus-storage/game/sha256/dd74886c26998a0fa888b4ce557a0932d7d97b0265dd4c763154d081b7a6cb98.gltf'
+const AVATAR_URL = './assets/models/quaternius/Individual%20Characters__glTF__Casual_Hoodie.gltf'
 
 let presentBootError = (error: unknown): void => {
   const root = document.getElementById('ui')
@@ -120,7 +118,13 @@ async function boot(): Promise<void> {
 
   const assets = new Assets()
   const stopProgress = assets.onProgress(progress => ui.setBootProgress(0.35 + progress * 0.65))
-  const avatar = await assets.gltf(AVATAR_URL)
+  let avatarData: { scene: THREE.Object3D; animations: readonly THREE.AnimationClip[] } | undefined
+  try {
+    const avatar = await assets.gltf(AVATAR_URL)
+    avatarData = { scene: avatar.scene, animations: avatar.animations }
+  } catch (err) {
+    console.warn('Avatar model could not be loaded; using built-in procedural avatar:', err)
+  }
   stopProgress()
   ui.setBootProgress(1)
 
@@ -129,7 +133,7 @@ async function boot(): Promise<void> {
     updateWorld: state => ui.updateWorld(state),
     completedPaths: paths => save.update({ completedPaths: [...paths] as CompletedPath[] }),
     portfolio: tab => ui.openPortfolio(tab),
-  }, { scene: avatar.scene, animations: avatar.animations }, save.data.completedPaths)
+  }, avatarData, save.data.completedPaths)
   game.reducedMotion = save.data.reducedMotion
   if (import.meta.env.DEV) {
     const [{ registerGameTuning }, { tuning }] = await Promise.all([

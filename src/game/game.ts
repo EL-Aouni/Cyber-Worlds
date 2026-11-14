@@ -41,7 +41,7 @@ export class Game {
     private readonly input: Input,
     private readonly audio: Audio,
     private readonly hooks: GameHooks,
-    avatar: { scene: THREE.Object3D; animations: readonly THREE.AnimationClip[] },
+    avatar?: { scene: THREE.Object3D; animations: readonly THREE.AnimationClip[] },
     completedPaths: readonly CompletedPath[] = [],
   ) {
     this.physics = new Physics(-30)
