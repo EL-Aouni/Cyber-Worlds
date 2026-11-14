@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "title": "Cyber Worlds · Mohammed El-Aouni",
+  "description": "Explore Mohammed El-Aouni's present-day cybersecurity portfolio hub, then enter offline fictional Red Team, Blue Team, GRC and Security Research practice worlds representing possible future career paths.",
+  "defaultCaptions": {
+    "x": "Step into Mohammed El-Aouni's Cyber Worlds: his current portfolio hub, with four safe fictional practice worlds for possible future careers.",
+    "facebook": "Cyber Worlds is a playable 3D cybersecurity portfolio for Mohammed El-Aouni, an ENSA Oujda student. Explore current work in the hub, then visit offline fictional Red Team, Blue Team, GRC and Security Research future-path simulations.",
+    "reddit": "A Three.js third-person portfolio world: a normal human explorer, a present-day cybersecurity hub and four independent offline career-practice worlds with simple fictional challenges and world abilities.",
+    "discord": "Explore Mohammed El-Aouni's current cybersecurity work in the hub, then discover four possible cyber-career worlds in this bilingual 3D portfolio."
+  },
+  "assets": {
+    "og": "assets/share/cyberworlds-og.png",
+    "favicon": "assets/share/cyberworlds-favicon.png"
+  }
+}

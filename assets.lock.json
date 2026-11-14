@@ -1,0 +1,77 @@
+{
+  "version": 2,
+  "groups": {
+    "models": {
+      "name": "Models",
+      "order": 40
+    },
+    "player-character": {
+      "name": "Explorer Character",
+      "order": 15
+    },
+    "share": {
+      "name": "Share",
+      "order": 30
+    },
+    "vehicle": {
+      "name": "Player Vehicle",
+      "order": 10
+    },
+    "world-environment": {
+      "name": "World Environment",
+      "order": 20
+    }
+  },
+  "bundles": {},
+  "assets": {
+    "assets/models/cyber-ops-skyscraper.glb": {
+      "path": "/manus-storage/game/sha256/43bbf6529e19c16ecfdf7ea563c63a1a46311997c6da5508a40d0977f927750c.glb",
+      "sha256": "sha256:43bbf6529e19c16ecfdf7ea563c63a1a46311997c6da5508a40d0977f927750c",
+      "size": 30772,
+      "assetType": "model",
+      "groupId": "world-environment"
+    },
+    "assets/models/cyber-ops-sports-car.glb": {
+      "path": "/manus-storage/game/sha256/bbb1c718d2aaf5f4344e9fb2cd66d8332a998a515b09ddd4dfa14698d787124e.glb",
+      "sha256": "sha256:bbb1c718d2aaf5f4344e9fb2cd66d8332a998a515b09ddd4dfa14698d787124e",
+      "size": 175100,
+      "assetType": "model",
+      "groupId": "vehicle"
+    },
+    "assets/models/quaternius/Individual Characters__glTF__Casual_Hoodie.gltf": {
+      "path": "/manus-storage/game/sha256/dd74886c26998a0fa888b4ce557a0932d7d97b0265dd4c763154d081b7a6cb98.gltf",
+      "sha256": "sha256:dd74886c26998a0fa888b4ce557a0932d7d97b0265dd4c763154d081b7a6cb98",
+      "size": 3104001,
+      "assetType": "model",
+      "groupId": "player-character"
+    },
+    "assets/share/cyberworlds-favicon.png": {
+      "path": "/manus-storage/game/sha256/96ad7d75e9276ad41fd6cc2481de727d8694b18f610a6a8bb7efa5c02ace0e92.png",
+      "sha256": "sha256:96ad7d75e9276ad41fd6cc2481de727d8694b18f610a6a8bb7efa5c02ace0e92",
+      "size": 68232,
+      "assetType": "image",
+      "groupId": "share"
+    },
+    "assets/share/cyberworlds-og.png": {
+      "path": "/manus-storage/game/sha256/8bb4f7cfa5dda32891cd915dd0455c01d930e45c4d360c84798c3eb5b0a7e75c.png",
+      "sha256": "sha256:8bb4f7cfa5dda32891cd915dd0455c01d930e45c4d360c84798c3eb5b0a7e75c",
+      "size": 1265285,
+      "assetType": "image",
+      "groupId": "share"
+    },
+    "assets/share/favicon.png": {
+      "path": "/manus-storage/game/sha256/4840868979be0fdf4b06b73cdcde28afde6850f5014b461bc94b734a3db5bc22.png",
+      "sha256": "sha256:4840868979be0fdf4b06b73cdcde28afde6850f5014b461bc94b734a3db5bc22",
+      "size": 214223,
+      "assetType": "image",
+      "groupId": "share"
+    },
+    "assets/share/og.png": {
+      "path": "/manus-storage/game/sha256/b147052b334bfaa9b7934a16fded8e453b8c2e34efaf38e0ebc4df3c10e5c54d.png",
+      "sha256": "sha256:b147052b334bfaa9b7934a16fded8e453b8c2e34efaf38e0ebc4df3c10e5c54d",
+      "size": 775210,
+      "assetType": "image",
+      "groupId": "share"
+    }
+  }
+}
